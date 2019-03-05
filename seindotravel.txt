@@ -1,0 +1,27 @@
+Buat pseudocode untuk mencetak N bilangan pertama, dimana bilangan tersebut merupakan bilangan yang habis dibagi 3, habis dibagi 5, tetapi tidak habis dibagi 15.
+Contoh: Input: 5 Output: 3 5 6 9 10
+
+Input N
+for(i=1;i=N;i++)
+{	for(j=1;j>=i;j++)
+	{
+	if (j % 3=0 and j % 15 !=0)
+	print j
+	else if (j % 5=0 and j % 15 !=0)
+	print j
+	else
+	return
+	j++
+	}
+i++
+}
+
+Buat pseudocode untuk mencetak deretan bilangan kuadrat sampai N.
+Contoh: Input: 5 Output: 1 4 9 16 25
+
+Input N
+for(i=1;i>=N;i++)
+{
+j=i*i
+print j
+}
